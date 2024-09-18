@@ -35,5 +35,15 @@ console.log(personArray);
 
 
 
+const ages =[21,22,43,56,77];
+for (let i =0;i< numberofpeople; i++);{
+    if(ages[i] % 2 == 0){
+        console.log(ages[i]);
+
+    }  
+}
+
+
+
 
 
