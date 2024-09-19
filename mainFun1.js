@@ -1,8 +1,17 @@
-const str = "Hello";
+// map , filter , find ,sort 
 
-str.replace(str,"world","javascript");
-console.log(str.replace(str,));
+const dog={
+    name: "DOG",
+    legCount: 2,
+    speaks:"Bhow ",
+};
+const cat={
+    name: "CAT",
+    legCount: 2,
+    speaks:"Mewoo ",
+};
 
-const value ="hi my name is SAGAR";
-const words = value.split(" ");
-console.log(words);
+
+
+console.log("animal "+ dog["name"]+ " "+dog["speaks"]);
+console.log("animal "+ cat["name"]+ " "+cat["speaks"]);
