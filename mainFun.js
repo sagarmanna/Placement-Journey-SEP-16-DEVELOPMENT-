@@ -18,5 +18,20 @@ function findIndexof(str,target){
 }
 findIndexof("Hello Sagar Helo SAGAR");
 
-str.length;
-str.lengthIndexOf;
+
+// Slice 
+
+function getSlice(str,start,end){
+    console.log("Orginal String : ", str);
+    console.log("After slice : ", str.slice(start,end));
+
+}
+getSlice("Hello World",0,5);
+
+
+let ans = "s manna".slice(0,5);
+console.log(ans);
+
+const value1="Harkirat Singh";
+let ans1 =value1.slice(0,5);
+console.log(ans);
